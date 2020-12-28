@@ -1,0 +1,14 @@
+.section-title {
+  text-align: center;
+  padding-top: 45px;
+  padding-bottom: 30px;
+}
+
+section {
+  padding-top: 2vh;
+  padding-bottom: 5vh;
+}
+
+.map {
+  text-align: center;
+}

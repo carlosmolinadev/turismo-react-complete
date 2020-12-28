@@ -1,0 +1,28 @@
+.image {
+  background: url("../assets/images/beach_1280.jpg") no-repeat;
+  background-size: cover;
+  height: 900px;
+}
+
+.login {
+  margin-top: 20px;
+  border-bottom: solid 2px gainsboro;
+}
+
+.authUser {
+  margin-top: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.nameUser {
+  width: 100%;
+}
+
+h2 {
+  text-align: center;
+}
+
+.signup {
+  margin: 20px 0px;
+}

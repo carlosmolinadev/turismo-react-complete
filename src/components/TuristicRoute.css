@@ -1,0 +1,42 @@
+.turistic-route {
+  padding-top: 80px;
+}
+
+.route__title {
+  display: flex;
+  justify-content: center;
+}
+
+.route__imgTitle {
+  display: flex;
+  justify-content: center;
+}
+
+.route__imgTitle > img {
+  object-fit: contain;
+  width: 700px;
+}
+
+.route__description > p {
+  padding-top: 25px;
+  font-weight: 200;
+  font-size: large;
+}
+
+.route__img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.route__img > img {
+  object-fit: cover;
+  width: 300px;
+  margin: 20px;
+  box-shadow: 0px 10px 13px -7px #000000, 6px 0px 0px 3px rgba(0, 0, 0, 0);
+}
+
+.place__description {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0 20px 0;
+}

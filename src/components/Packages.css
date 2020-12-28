@@ -1,0 +1,50 @@
+.paquetes__precio {
+  display: flex;
+  justify-content: space-around;
+}
+
+.package__images {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.package__images > img {
+  object-fit: cover;
+  width: 300px;
+  margin: 20px 50px 20px 20px;
+  box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000,
+    5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+.package__images > img:hover {
+  transform: scale(1.02);
+  transition: ease-in;
+}
+
+.paquetes__basico {
+  padding-top: 10px;
+  border: 2px solid black;
+  height: 600px;
+  margin: 5px;
+}
+
+.paquetes__premium {
+  padding-top: 10px;
+  border: 2px solid black;
+  margin: 5px;
+}
+
+.paquetes__VIP {
+  padding-top: 10px;
+  border: 2px solid black;
+  margin: 5px;
+}
+
+.precio {
+  position: absolute;
+  bottom: 20px;
+}
+
+.package__button {
+  justify-content: center;
+}
